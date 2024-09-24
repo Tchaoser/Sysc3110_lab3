@@ -10,7 +10,7 @@ public class AddressBook {
 
     public void addBuddy(BuddyInfo buddy) {
         if (buddy != null) {
-            buddies.add(buddy);
+            buddies.add(buddy); //hello this is the difference between branch and master
         }
     }
 
