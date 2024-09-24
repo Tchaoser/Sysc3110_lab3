@@ -21,8 +21,10 @@ public class AddressBook {
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("tom", "carleton", "613");
         AddressBook addressbook = new AddressBook();
-        addressbook.addBuddy(buddy);
+        addressbook.addBuddy(buddy); //value of size = 0
         addressbook.removeBuddy(buddy);
-
+        //value of size after stepover is one
+        //repository: https://github.com/Tchaoser/Sysc3110_lab3.git
+        //change in code
     }
 }
