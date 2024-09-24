@@ -23,6 +23,7 @@ public class AddressBook {
         AddressBook addressbook = new AddressBook();
         addressbook.addBuddy(buddy); //value of size = 0
         addressbook.removeBuddy(buddy);
+        int men;
         //value of size after stepover is one
         //repository: https://github.com/Tchaoser/Sysc3110_lab3.git
         //change in code
